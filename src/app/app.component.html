@@ -1,0 +1,182 @@
+<mat-tab-group class="custom-tab-group">
+  <mat-tab label="LDAP">
+    <div>
+      <h2 class="tap1-header">Filter Users</h2>
+      <form action="" class="users-table">
+        <div class="table-row-1">
+          <div class="user-inputs">
+            <label for="UserField" class="inputHeader">User Field</label>
+            <input type="text" placeholder="User Field" class="user-input">
+          </div>
+
+          <div class="user-inputs">
+            <label for="CustomField" class="inputHeader">User Field Value</label>
+            <input type="text" placeholder="Enter User Field Value" class="user-input">
+          </div>
+        </div>
+
+        <div class="table-row-1">
+          <div class="user-inputs">
+            <label for="CustomField" class="inputHeader">Custom Field</label>
+            <input type="text" placeholder="Enter Custom Field" class="user-input">
+          </div>
+
+          <div class="user-inputs">
+            <label for="UserField" class="inputHeader">Custom Field Value</label>
+            <input type="text" placeholder="Enter Custom Field Value" class="user-input">
+          </div>
+        </div>
+
+        <div class="button-row">
+          <button class="non-filter-button">
+            <svg class="icon-filter" enable-background="new 0 0 32 32" id="Editable-line" version="1.1"
+              viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path
+                d="  M3.241,7.646L13,19v9l6-4v-5l9.759-11.354C29.315,6.996,28.848,6,27.986,6H4.014C3.152,6,2.685,6.996,3.241,7.646z"
+                fill="none" id="XMLID_6_" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                stroke-miterlimit="10" stroke-width="2" />
+            </svg>
+            Clear
+          </button>
+          <div class="buttons">
+            <button class="filter-button">
+              <svg class="icon-filter" enable-background="new 0 0 32 32" id="Editable-line" version="1.1"
+                viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                  d="  M3.241,7.646L13,19v9l6-4v-5l9.759-11.354C29.315,6.996,28.848,6,27.986,6H4.014C3.152,6,2.685,6.996,3.241,7.646z"
+                  fill="none" id="XMLID_6_" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-miterlimit="10" stroke-width="2" />
+              </svg>
+              Filter Users</button>
+            <button class="import-button">Import</button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </mat-tab>
+  <mat-tab label="Azure">
+    <div>
+      <h2 class="tap1-header">Filter Users</h2>
+      <form action="" class="users-table">
+        <div class="table-row-1">
+          <div class="user-inputs">
+            <label for="UserField" class="inputHeader">User Field</label>
+            <input type="text" placeholder="User Field" class="user-input">
+          </div>
+
+          <div class="user-inputs">
+            <label for="CustomField" class="inputHeader">User Field Value</label>
+            <input type="text" placeholder="Enter User Field Value" class="user-input">
+          </div>
+        </div>
+
+        <div class="table-row-1">
+          <div class="user-inputs">
+            <label for="CustomField" class="inputHeader">Custom Field</label>
+            <input type="text" placeholder="Enter Custom Field" class="user-input">
+          </div>
+
+          <div class="user-inputs">
+            <label for="UserField" class="inputHeader">Custom Field Value</label>
+            <input type="text" placeholder="Enter Custom Field Value" class="user-input">
+          </div>
+        </div>
+
+        <div class="button-row">
+          <button class="non-filter-button">
+            <svg class="icon-filter" enable-background="new 0 0 32 32" id="Editable-line" version="1.1"
+              viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path
+                d="  M3.241,7.646L13,19v9l6-4v-5l9.759-11.354C29.315,6.996,28.848,6,27.986,6H4.014C3.152,6,2.685,6.996,3.241,7.646z"
+                fill="none" id="XMLID_6_" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                stroke-miterlimit="10" stroke-width="2" />
+            </svg>
+            Clear
+          </button>
+          <div class="buttons">
+            <button class="filter-button">
+              <svg class="icon-filter" enable-background="new 0 0 32 32" id="Editable-line" version="1.1"
+                viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                  d="  M3.241,7.646L13,19v9l6-4v-5l9.759-11.354C29.315,6.996,28.848,6,27.986,6H4.014C3.152,6,2.685,6.996,3.241,7.646z"
+                  fill="none" id="XMLID_6_" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-miterlimit="10" stroke-width="2" />
+              </svg>
+              Filter Users</button>
+            <button class="import-button">Import</button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </mat-tab>
+  <mat-tab label="File">
+    <div class="tap3-container">
+      <div>
+        <h2>Upload File</h2>
+        <div class="tap3-col1">
+          <mat-radio-group aria-label="Select an option" class="mat-group">
+            <label for="">File Type</label>
+            <div class="radio-group">
+              <mat-radio-button class="custom-radio-button-class" value="1">CSV</mat-radio-button>
+              <mat-radio-button class="custom-radio-button-class" value="2">Excel(XLSX)</mat-radio-button>
+            </div>
+          </mat-radio-group>
+
+          <div class="upload-buton-group">
+            <label for="">Upload Users File</label>
+            <div class="uploadFileGroup">
+            <button class="upload-buton">
+              <svg
+              class="upload-icon"
+                enable-background="new 0 0 50 50" height="50px" id="Layer_1" version="1.1" viewBox="0 0 50 50"
+                width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect fill="none" height="50" width="50" />
+                <path
+                  d="  M32,35c0,0,8.312,0,9.098,0C45.463,35,49,31.463,49,27.099s-3.537-7.902-7.902-7.902c-0.02,0-0.038,0.003-0.058,0.003  c0.061-0.494,0.103-0.994,0.103-1.504c0-6.71-5.439-12.15-12.15-12.15c-5.229,0-9.672,3.309-11.386,7.941  c-1.087-1.089-2.591-1.764-4.251-1.764c-3.319,0-6.009,2.69-6.009,6.008c0,0.085,0.01,0.167,0.013,0.251  C3.695,18.995,1,22.344,1,26.331C1,31.119,4.881,35,9.67,35c0.827,0,8.33,0,8.33,0"
+                  fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                  stroke-width="2" />
+                <polyline fill="none" points="20,28 25,23 30,28   " stroke="#000000" stroke-linecap="round"
+                  stroke-miterlimit="10" stroke-width="2" />
+                <line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+                  x1="25" x2="25" y1="43" y2="23.333" />
+              </svg>
+              Upload file
+            </button>
+            <h3 class="uplodeh3">No file chosen</h3>
+          </div>
+
+          </div>
+
+          <div class="ibtn">
+            <button class="import-button">Import</button>
+          </div>
+
+        </div>
+
+      </div>
+      <div>
+        <div class="col2-header">
+          <svg class="clock-icon" height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1"
+            viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g>
+              <path
+                d="M256,48C141.1,48,48,141.1,48,256s93.1,208,208,208c114.9,0,208-93.1,208-208S370.9,48,256,48z M256,446.7   c-105.1,0-190.7-85.5-190.7-190.7c0-105.1,85.5-190.7,190.7-190.7c105.1,0,190.7,85.5,190.7,190.7   C446.7,361.1,361.1,446.7,256,446.7z" />
+              <polygon points="256,256 160,256 160,273.3 273.3,273.3 273.3,128 256,128  " />
+            </g>
+          </svg>
+          <h2>Recent Files</h2>
+        </div>
+        <div class="tap3-col2"></div>
+      </div>
+
+    </div>
+  </mat-tab>
+</mat-tab-group>
